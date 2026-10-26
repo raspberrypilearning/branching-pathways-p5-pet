@@ -1,0 +1,9 @@
+name: p5-pet-starter
+title: My p5 Pet
+hero_image: images/banner.svg
+version: 1
+listed: false
+copyedit: false
+last_tested: '2026-10-26'
+steps:
+  - title: My pet

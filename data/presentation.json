@@ -1,0 +1,61 @@
+{
+  "groups": {
+    "1": {
+      "slug": "setup",
+      "icon": "code",
+      "tone": "mint",
+      "subtitle": "",
+      "description": ""
+    },
+    "2": {
+      "slug": "controls",
+      "icon": "dial",
+      "tone": "mint",
+      "subtitle": "How will you play?",
+      "description": "Use a click or a key to get a reaction."
+    },
+    "3": {
+      "slug": "body",
+      "icon": "shape",
+      "tone": "yellow",
+      "subtitle": "A creature only you could invent",
+      "description": "Play with shapes, faces and decorations."
+    },
+    "4": {
+      "slug": "move",
+      "icon": "wave",
+      "tone": "cyan",
+      "subtitle": "Wobble, bounce or follow",
+      "description": "Give your pet a way to get around."
+    },
+    "5": {
+      "slug": "personality",
+      "icon": "connect",
+      "tone": "purple",
+      "subtitle": "Decide what happens",
+      "description": "Connect an action to a reaction you choose."
+    },
+    "6": {
+      "slug": "home-scene",
+      "icon": "home",
+      "tone": "pink",
+      "subtitle": "Where does your pet belong?",
+      "description": "Draw a place for it to live."
+    },
+    "7": {
+      "slug": "improve",
+      "icon": "repeat",
+      "tone": "orange",
+      "subtitle": "Meet it. Change it. Try again.",
+      "description": "Let someone play, then improve one thing."
+    },
+    "8": {
+      "slug": "ideas",
+      "icon": "spark",
+      "tone": "cyan",
+      "subtitle": "Borrow a spark",
+      "description": "Mix ideas or invent something completely different."
+    }
+  },
+  "options": {}
+}

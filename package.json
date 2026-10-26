@@ -1,0 +1,1 @@
+{"name":"branching-pathways-p5-pet","private":true,"type":"module","scripts":{"check":"node --check app.js"}}

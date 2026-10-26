@@ -1,0 +1,25 @@
+title: My p5 Pet
+hero_image: images/banner.svg
+description: Make a digital pet with Python and p5. Choose its look, movement and personality.
+listed: false
+pdf: false
+landing: true
+steps:
+  - title: '1A - Meet your pet'
+  - title: '2A - Click your pet'
+  - title: '2B - Press a key'
+  - title: '3A - Shape a body'
+  - title: '3B - Make an angular body'
+  - title: '3C - Add decorations'
+  - title: '4A - Wobble from side to side'
+  - title: '4B - Bounce up and down'
+  - title: '4C - Follow the pointer'
+  - title: '5A - Switch between moods'
+  - title: '5B - Surprise me'
+  - title: '5C - Give it a voice'
+  - title: '6A - Draw a place to live'
+  - title: '6B - Invent a strange world'
+  - title: '7A - Meet test and change'
+  - title: '8A - A curious companion'
+  - title: '8B - A sleepy oddball'
+  - title: '8C - A space visitor'

@@ -1,0 +1,563 @@
+{
+  "landing": "<h1>My p5 Pet</h1>\n<p>Make a creature that reacts to you. Its body, home and personality are yours to choose.</p>\n<p>Start by <a href=\"#step/1A\" data-prereq>running your pet</a>. Then choose any part below.</p>\n<h2>Give it controls</h2>\n<ul><li><a href=\"#step/2A\" data-prereq>Click your pet</a> — Choose where a click counts.</li><li><a href=\"#step/2B\" data-prereq>Press a key</a> — Give the keyboard a job.</li></ul>\n<h2>Give it a body</h2>\n<ul><li><a href=\"#step/3A\" data-prereq>Shape a body</a> — Round, wide, tall or something else.</li><li><a href=\"#step/3B\" data-prereq>Make an angular body</a> — Try a robot, rock or boxy beast.</li><li><a href=\"#step/3C\" data-prereq>Add decorations</a> — A hat, spots, whiskers or wings.</li></ul>\n<h2>Make it move</h2>\n<ul><li><a href=\"#step/4A\" data-prereq>Wobble from side to side</a> — Make a slow sway or an excited wiggle.</li><li><a href=\"#step/4B\" data-prereq>Bounce up and down</a> — A gentle bob or a big bounce.</li><li><a href=\"#step/4C\" data-prereq>Follow the pointer</a> — Make a curious companion.</li></ul>\n<h2>Give it personality</h2>\n<ul><li><a href=\"#step/5A\" data-prereq>Switch between moods</a> — Give an action a reaction.</li><li><a href=\"#step/5B\" data-prereq>Surprise me</a> — Make the next reaction unpredictable.</li><li><a href=\"#step/5C\" data-prereq>Give it a voice</a> — Use words to show its personality.</li></ul>\n<h2>Make its home</h2>\n<ul><li><a href=\"#step/6A\" data-prereq>Draw a place to live</a> — A garden, bedroom, cave or planet.</li><li><a href=\"#step/6B\" data-prereq>Invent a strange world</a> — Underwater, in space or somewhere new.</li></ul>\n<h2>Test and improve</h2>\n<ul><li><a href=\"#step/7A\" data-prereq>Meet test and change</a> — Watch someone play and improve one thing.</li></ul>\n<h2>Ideas to borrow</h2>\n<ul><li><a href=\"#step/8A\" data-prereq>A curious companion</a> — A pet that follows you around.</li><li><a href=\"#step/8B\" data-prereq>A sleepy oddball</a> — A pet with very little energy.</li><li><a href=\"#step/8C\" data-prereq>A space visitor</a> — A creature from somewhere else.</li></ul>",
+  "groups": [
+    {
+      "title": "Start here",
+      "slug": "setup",
+      "icon": "code",
+      "tone": "mint",
+      "subtitle": "",
+      "description": "",
+      "options": [
+        {
+          "id": "1A",
+          "title": "Meet your pet",
+          "description": "Run a pet that already reacts."
+        }
+      ]
+    },
+    {
+      "title": "Give it controls",
+      "slug": "controls",
+      "icon": "dial",
+      "tone": "mint",
+      "subtitle": "How will you play?",
+      "description": "Use a click or a key to get a reaction.",
+      "options": [
+        {
+          "id": "2A",
+          "title": "Click your pet",
+          "description": "Choose where a click counts."
+        },
+        {
+          "id": "2B",
+          "title": "Press a key",
+          "description": "Give the keyboard a job."
+        }
+      ]
+    },
+    {
+      "title": "Give it a body",
+      "slug": "body",
+      "icon": "shape",
+      "tone": "yellow",
+      "subtitle": "A creature only you could invent",
+      "description": "Play with shapes, faces and decorations.",
+      "options": [
+        {
+          "id": "3A",
+          "title": "Shape a body",
+          "description": "Round, wide, tall or something else."
+        },
+        {
+          "id": "3B",
+          "title": "Make an angular body",
+          "description": "Try a robot, rock or boxy beast."
+        },
+        {
+          "id": "3C",
+          "title": "Add decorations",
+          "description": "A hat, spots, whiskers or wings."
+        }
+      ]
+    },
+    {
+      "title": "Make it move",
+      "slug": "move",
+      "icon": "wave",
+      "tone": "cyan",
+      "subtitle": "Wobble, bounce or follow",
+      "description": "Give your pet a way to get around.",
+      "options": [
+        {
+          "id": "4A",
+          "title": "Wobble from side to side",
+          "description": "Make a slow sway or an excited wiggle."
+        },
+        {
+          "id": "4B",
+          "title": "Bounce up and down",
+          "description": "A gentle bob or a big bounce."
+        },
+        {
+          "id": "4C",
+          "title": "Follow the pointer",
+          "description": "Make a curious companion."
+        }
+      ]
+    },
+    {
+      "title": "Give it personality",
+      "slug": "personality",
+      "icon": "connect",
+      "tone": "purple",
+      "subtitle": "Decide what happens",
+      "description": "Connect an action to a reaction you choose.",
+      "options": [
+        {
+          "id": "5A",
+          "title": "Switch between moods",
+          "description": "Give an action a reaction."
+        },
+        {
+          "id": "5B",
+          "title": "Surprise me",
+          "description": "Make the next reaction unpredictable."
+        },
+        {
+          "id": "5C",
+          "title": "Give it a voice",
+          "description": "Use words to show its personality."
+        }
+      ]
+    },
+    {
+      "title": "Make its home",
+      "slug": "home-scene",
+      "icon": "home",
+      "tone": "pink",
+      "subtitle": "Where does your pet belong?",
+      "description": "Draw a place for it to live.",
+      "options": [
+        {
+          "id": "6A",
+          "title": "Draw a place to live",
+          "description": "A garden, bedroom, cave or planet."
+        },
+        {
+          "id": "6B",
+          "title": "Invent a strange world",
+          "description": "Underwater, in space or somewhere new."
+        }
+      ]
+    },
+    {
+      "title": "Test and improve",
+      "slug": "improve",
+      "icon": "repeat",
+      "tone": "orange",
+      "subtitle": "Meet it. Change it. Try again.",
+      "description": "Let someone play, then improve one thing.",
+      "options": [
+        {
+          "id": "7A",
+          "title": "Meet test and change",
+          "description": "Watch someone play and improve one thing."
+        }
+      ]
+    },
+    {
+      "title": "Ideas to borrow",
+      "slug": "ideas",
+      "icon": "spark",
+      "tone": "cyan",
+      "subtitle": "Borrow a spark",
+      "description": "Mix ideas or invent something completely different.",
+      "options": [
+        {
+          "id": "8A",
+          "title": "A curious companion",
+          "description": "A pet that follows you around."
+        },
+        {
+          "id": "8B",
+          "title": "A sleepy oddball",
+          "description": "A pet with very little energy."
+        },
+        {
+          "id": "8C",
+          "title": "A space visitor",
+          "description": "A creature from somewhere else."
+        }
+      ]
+    }
+  ],
+  "pages": {
+    "1A": {
+      "title": "Meet your pet",
+      "html": "<h1>Meet your pet</h1>\n<p>Your starter pet already has a body, a home and a reaction. Get it working, then change any part.</p>\n<h2>Open your workspace</h2>\n<ul><li>Open the <a href=\"https://editor.raspberrypi.org/en/projects/blank-python-starter\" target=\"_blank\" rel=\"noopener\">Raspberry Pi Python editor</a> in another tab.</li><li>Copy the pet starter below. Replace everything in <strong>main.py</strong> with it.</li><li>Select <strong>Run</strong>. A purple pet should appear in the visual output.</li></ul>\n<details class=\"worked-example\"><summary>Copy the pet starter</summary><div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>from p5 import *\n\n# Your pet&#x27;s starting point\nx = 200\ny = 230\nmood = &#x27;calm&#x27;\nmessage = &#x27;Click my body!&#x27;\n\n\ndef setup():\n    size(400, 400)\n    no_stroke()\n\n\ndef draw_home():\n    background(&#x27;lightblue&#x27;)\n    fill(&#x27;lightgreen&#x27;)\n    rect(0, 290, 400, 110)\n\n\ndef move_pet():\n    pass  # Your pet can stay still for now\n\n\ndef draw_body():\n    fill(&#x27;orchid&#x27;)\n    ellipse(x, y, 110, 100)\n\n\ndef draw_face():\n    fill(&#x27;white&#x27;)\n    circle(x - 20, y - 15, 24)\n    circle(x + 20, y - 15, 24)\n    fill(&#x27;black&#x27;)\n    circle(x - 20, y - 15, 10)\n    circle(x + 20, y - 15, 10)\n    if mood == &#x27;happy&#x27;:\n        ellipse(x, y + 20, 30, 20)\n    elif mood == &#x27;sleepy&#x27;:\n        ellipse(x, y + 20, 12, 20)\n    else:\n        ellipse(x, y + 20, 24, 5)\n\n\ndef draw_accessories():\n    pass  # Add decorations here when you want them\n\n\ndef react():\n    global mood, message\n    if mood == &#x27;calm&#x27;:\n        mood = &#x27;happy&#x27;\n        message = &#x27;Hello, friend!&#x27;\n    else:\n        mood = &#x27;calm&#x27;\n        message = &#x27;That tickles.&#x27;\n\n\ndef mouse_pressed():\n    if dist(mouse_x, mouse_y, x, y) &lt; 60:\n        react()\n\n\ndef key_pressed():\n    pass  # You can give a key a job later\n\n\ndef draw():\n    draw_home()\n    move_pet()\n    draw_body()\n    draw_face()\n    draw_accessories()\n    fill(&#x27;black&#x27;)\n    text_size(18)\n    text(message, 20, 365)\n\n\nrun()</code></pre></div>\n<p><a href=\"en/resources/pet.py\">Open the starter file</a> if you prefer to copy it from a file.</p></details>\n<h2>Test</h2>\n<p>Click the middle of your pet. Its mouth and message should change. Click again to change them back.</p>\n<p>You have made your first working pet!</p>\n<h2>Keep your code</h2>\n<p>Use the editor&#x27;s <strong>Download</strong> button to keep a copy of your Python project. If you log in, you can also save it in the editor.</p>\n<p>This pathway saves your ticks and notes separately. <strong>Save notes</strong> does not save your Python code.</p>\n<h2>Choose your next part</h2>\n<p>Start with controls, a body, movement, personality or a home. You can come back and change things.</p>\n<details class=\"worked-example\"><summary>How to use the code on these pages</summary><ul><li>A function is a named chunk of code with one job.</li><li>When a page says <strong>replace a function</strong>, replace its line starting with <strong>def</strong> and all the indented lines below it. Stop before the next <strong>def</strong>.</li><li>Keep one copy of each function. Two versions with the same name do not run together.</li><li>Keep <strong>run()</strong> at the very bottom. Keep the four spaces at the start of lines inside a function.</li><li>Combine ideas from different parts. Options that replace the same function are alternatives; adapt one to include your own changes.</li></ul></details>\n<details class=\"worked-example\"><summary>My pet did not appear</summary><ul><li>Check you copied the whole starter, including its first and last lines.</li><li>Look for an error message. Check the line it mentions for a missing bracket or changed spaces.</li><li>If the editor says <strong>Load failed</strong>, refresh it or return to its home page and choose <strong>Python</strong>.</li></ul></details>\n<p><a href=\"#hub\" data-prereq>Choose a part</a>.</p>",
+      "intro": "<p>Your starter pet already has a body, a home and a reaction. Get it working, then change any part.</p>",
+      "sections": [
+        {
+          "title": "Open your workspace",
+          "key": "open-your-workspace",
+          "html": "<ul><li>Open the <a href=\"https://editor.raspberrypi.org/en/projects/blank-python-starter\" target=\"_blank\" rel=\"noopener\">Raspberry Pi Python editor</a> in another tab.</li><li>Copy the pet starter below. Replace everything in <strong>main.py</strong> with it.</li><li>Select <strong>Run</strong>. A purple pet should appear in the visual output.</li></ul>\n<details class=\"worked-example\"><summary>Copy the pet starter</summary><div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>from p5 import *\n\n# Your pet&#x27;s starting point\nx = 200\ny = 230\nmood = &#x27;calm&#x27;\nmessage = &#x27;Click my body!&#x27;\n\n\ndef setup():\n    size(400, 400)\n    no_stroke()\n\n\ndef draw_home():\n    background(&#x27;lightblue&#x27;)\n    fill(&#x27;lightgreen&#x27;)\n    rect(0, 290, 400, 110)\n\n\ndef move_pet():\n    pass  # Your pet can stay still for now\n\n\ndef draw_body():\n    fill(&#x27;orchid&#x27;)\n    ellipse(x, y, 110, 100)\n\n\ndef draw_face():\n    fill(&#x27;white&#x27;)\n    circle(x - 20, y - 15, 24)\n    circle(x + 20, y - 15, 24)\n    fill(&#x27;black&#x27;)\n    circle(x - 20, y - 15, 10)\n    circle(x + 20, y - 15, 10)\n    if mood == &#x27;happy&#x27;:\n        ellipse(x, y + 20, 30, 20)\n    elif mood == &#x27;sleepy&#x27;:\n        ellipse(x, y + 20, 12, 20)\n    else:\n        ellipse(x, y + 20, 24, 5)\n\n\ndef draw_accessories():\n    pass  # Add decorations here when you want them\n\n\ndef react():\n    global mood, message\n    if mood == &#x27;calm&#x27;:\n        mood = &#x27;happy&#x27;\n        message = &#x27;Hello, friend!&#x27;\n    else:\n        mood = &#x27;calm&#x27;\n        message = &#x27;That tickles.&#x27;\n\n\ndef mouse_pressed():\n    if dist(mouse_x, mouse_y, x, y) &lt; 60:\n        react()\n\n\ndef key_pressed():\n    pass  # You can give a key a job later\n\n\ndef draw():\n    draw_home()\n    move_pet()\n    draw_body()\n    draw_face()\n    draw_accessories()\n    fill(&#x27;black&#x27;)\n    text_size(18)\n    text(message, 20, 365)\n\n\nrun()</code></pre></div>\n<p><a href=\"en/resources/pet.py\">Open the starter file</a> if you prefer to copy it from a file.</p></details>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Click the middle of your pet. Its mouth and message should change. Click again to change them back.</p>\n<p>You have made your first working pet!</p>"
+        },
+        {
+          "title": "Keep your code",
+          "key": "keep-your-code",
+          "html": "<p>Use the editor&#x27;s <strong>Download</strong> button to keep a copy of your Python project. If you log in, you can also save it in the editor.</p>\n<p>This pathway saves your ticks and notes separately. <strong>Save notes</strong> does not save your Python code.</p>"
+        },
+        {
+          "title": "Choose your next part",
+          "key": "choose-your-next-part",
+          "html": "<p>Start with controls, a body, movement, personality or a home. You can come back and change things.</p>\n<details class=\"worked-example\"><summary>How to use the code on these pages</summary><ul><li>A function is a named chunk of code with one job.</li><li>When a page says <strong>replace a function</strong>, replace its line starting with <strong>def</strong> and all the indented lines below it. Stop before the next <strong>def</strong>.</li><li>Keep one copy of each function. Two versions with the same name do not run together.</li><li>Keep <strong>run()</strong> at the very bottom. Keep the four spaces at the start of lines inside a function.</li><li>Combine ideas from different parts. Options that replace the same function are alternatives; adapt one to include your own changes.</li></ul></details>\n<details class=\"worked-example\"><summary>My pet did not appear</summary><ul><li>Check you copied the whole starter, including its first and last lines.</li><li>Look for an error message. Check the line it mentions for a missing bracket or changed spaces.</li><li>If the editor says <strong>Load failed</strong>, refresh it or return to its home page and choose <strong>Python</strong>.</li></ul></details>\n<p><a href=\"#hub\" data-prereq>Choose a part</a>.</p>"
+        }
+      ]
+    },
+    "2A": {
+      "title": "Click your pet",
+      "html": "<h1>Click your pet</h1>\n<p>A click can be a pat, a tickle or a surprise. You decide what it means.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>mouse_pressed()</strong>. The distance check makes clicks near the centre of your pet count.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def mouse_pressed():\n    if dist(mouse_x, mouse_y, x, y) &lt; 60:\n        react()</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Click your pet, then a far corner. Only the click near your pet should change its face and message.</p>\n<h2>Make it yours</h2>\n<p>Change <strong>60</strong> to make the touch area bigger or smaller. To accept a click anywhere, remove the <strong>if</strong> line and move <strong>react()</strong> left by four spaces.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>A click can be a pat, a tickle or a surprise. You decide what it means.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>mouse_pressed()</strong>. The distance check makes clicks near the centre of your pet count.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def mouse_pressed():\n    if dist(mouse_x, mouse_y, x, y) &lt; 60:\n        react()</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Click your pet, then a far corner. Only the click near your pet should change its face and message.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change <strong>60</strong> to make the touch area bigger or smaller. To accept a click anywhere, remove the <strong>if</strong> line and move <strong>react()</strong> left by four spaces.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "2B": {
+      "title": "Press a key",
+      "html": "<h1>Press a key</h1>\n<p>Your pet can react to a key as well as a click.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>key_pressed()</strong>. This first version accepts any key.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def key_pressed():\n    react()</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Click the visual output to focus it, then press a letter key. Your pet should react each time you press a key.</p>\n<h2>Make it yours</h2>\n<p>Invent what the key means: a whistle, a treat or a wake-up call. Change the reaction in <a href=\"#step/5A\" data-prereq>Give it personality</a>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Your pet can react to a key as well as a click.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>key_pressed()</strong>. This first version accepts any key.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def key_pressed():\n    react()</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Click the visual output to focus it, then press a letter key. Your pet should react each time you press a key.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Invent what the key means: a whistle, a treat or a wake-up call. Change the reaction in <a href=\"#step/5A\" data-prereq>Give it personality</a>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "3A": {
+      "title": "Shape a body",
+      "html": "<h1>Shape a body</h1>\n<p>Build a creature from a few shapes. It does not have to be an animal anyone has seen before.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>draw_body()</strong>. The ears are drawn first so the body sits in front of them. The face is drawn separately.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_body():\n    fill(&#x27;orchid&#x27;)\n    ellipse(x - 35, y - 45, 25, 65)\n    ellipse(x + 35, y - 45, 25, 65)\n    ellipse(x, y, 110, 100)</code></pre></div>\n<h2>Test</h2>\n<p>Run your code and click your pet. Your new body should still have a face that reacts.</p>\n<h2>Make it yours</h2>\n<p>Try wide ears, tiny ears or no ears. An ellipse uses centre x, centre y, width and height. Keep positions relative to <strong>x</strong> and <strong>y</strong> so every part moves together.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Build a creature from a few shapes. It does not have to be an animal anyone has seen before.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>draw_body()</strong>. The ears are drawn first so the body sits in front of them. The face is drawn separately.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_body():\n    fill(&#x27;orchid&#x27;)\n    ellipse(x - 35, y - 45, 25, 65)\n    ellipse(x + 35, y - 45, 25, 65)\n    ellipse(x, y, 110, 100)</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code and click your pet. Your new body should still have a face that reacts.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Try wide ears, tiny ears or no ears. An ellipse uses centre x, centre y, width and height. Keep positions relative to <strong>x</strong> and <strong>y</strong> so every part moves together.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "3B": {
+      "title": "Make an angular body",
+      "html": "<h1>Make an angular body</h1>\n<p>Circles are only one possibility. Try building with rectangles and triangles.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>draw_body()</strong>. A rectangle uses its top-left corner, then width and height.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_body():\n    fill(&#x27;gold&#x27;)\n    rect(x - 50, y - 45, 100, 90)\n    fill(&#x27;orange&#x27;)\n    triangle(x - 25, y - 45, x, y - 75, x + 25, y - 45)\n    rect(x - 65, y - 10, 15, 35)\n    rect(x + 50, y - 10, 15, 35)</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Click the middle of the body to check the reaction still works.</p>\n<h2>Make it yours</h2>\n<p>Change the top into a horn, aerial or mountain peak. Keep your face visible. If you make a much bigger body, adjust its clickable area in <a href=\"#step/2A\" data-prereq>Click your pet</a>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Circles are only one possibility. Try building with rectangles and triangles.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>draw_body()</strong>. A rectangle uses its top-left corner, then width and height.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_body():\n    fill(&#x27;gold&#x27;)\n    rect(x - 50, y - 45, 100, 90)\n    fill(&#x27;orange&#x27;)\n    triangle(x - 25, y - 45, x, y - 75, x + 25, y - 45)\n    rect(x - 65, y - 10, 15, 35)\n    rect(x + 50, y - 10, 15, 35)</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Click the middle of the body to check the reaction still works.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change the top into a horn, aerial or mountain peak. Keep your face visible. If you make a much bigger body, adjust its clickable area in <a href=\"#step/2A\" data-prereq>Click your pet</a>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "3C": {
+      "title": "Add decorations",
+      "html": "<h1>Add decorations</h1>\n<p>Give your pet a detail that makes it yours.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>draw_accessories()</strong>. This draws on top of the body and face.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_accessories():\n    fill(&#x27;tomato&#x27;)\n    triangle(x - 30, y - 45, x, y - 95, x + 30, y - 45)\n    fill(&#x27;gold&#x27;)\n    circle(x, y - 95, 12)</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Your pet should wear a hat. If you have chosen movement, the hat should move with it.</p>\n<h2>Make it yours</h2>\n<p>Turn the hat into hair or a crown. Add spots with circles. Use <strong>x +</strong> or <strong>y -</strong> to keep decorations attached to your pet.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Give your pet a detail that makes it yours.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>draw_accessories()</strong>. This draws on top of the body and face.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_accessories():\n    fill(&#x27;tomato&#x27;)\n    triangle(x - 30, y - 45, x, y - 95, x + 30, y - 45)\n    fill(&#x27;gold&#x27;)\n    circle(x, y - 95, 12)</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Your pet should wear a hat. If you have chosen movement, the hat should move with it.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Turn the hat into hair or a crown. Add spots with circles. Use <strong>x +</strong> or <strong>y -</strong> to keep decorations attached to your pet.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "4A": {
+      "title": "Wobble from side to side",
+      "html": "<h1>Wobble from side to side</h1>\n<p>Repeated movement can give even a simple shape a personality.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>move_pet()</strong>. The sine function makes a smooth repeating wave; you can explore the numbers without learning the maths first.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    from math import sin\n    global x, y\n    x = 200 + sin(frame_count * 0.04) * 75\n    y = 230</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Watch the pet move left and right. Click its body while it moves to check it still reacts.</p>\n<h2>Make it yours</h2>\n<p>Change <strong>0.04</strong> for the speed and <strong>75</strong> for the distance. Try small changes first. Keep your pet inside the canvas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Repeated movement can give even a simple shape a personality.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>move_pet()</strong>. The sine function makes a smooth repeating wave; you can explore the numbers without learning the maths first.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    from math import sin\n    global x, y\n    x = 200 + sin(frame_count * 0.04) * 75\n    y = 230</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Watch the pet move left and right. Click its body while it moves to check it still reacts.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change <strong>0.04</strong> for the speed and <strong>75</strong> for the distance. Try small changes first. Keep your pet inside the canvas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "4B": {
+      "title": "Bounce up and down",
+      "html": "<h1>Bounce up and down</h1>\n<p>Make a pet that cannot keep still.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>move_pet()</strong>. The absolute value keeps each bounce above the starting height.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    from math import sin\n    global x, y\n    x = 200\n    y = 230 - abs(sin(frame_count * 0.05)) * 80</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. The pet should rise and return to the same place. Its face and decorations should travel with it.</p>\n<h2>Make it yours</h2>\n<p>Change <strong>80</strong> to set the height and <strong>0.05</strong> to set the speed. Could it float gently instead of bouncing?</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Make a pet that cannot keep still.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>move_pet()</strong>. The absolute value keeps each bounce above the starting height.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    from math import sin\n    global x, y\n    x = 200\n    y = 230 - abs(sin(frame_count * 0.05)) * 80</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. The pet should rise and return to the same place. Its face and decorations should travel with it.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change <strong>80</strong> to set the height and <strong>0.05</strong> to set the speed. Could it float gently instead of bouncing?</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "4C": {
+      "title": "Follow the pointer",
+      "html": "<h1>Follow the pointer</h1>\n<p>Where you move, your pet follows.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>move_pet()</strong>. The limits keep the centre away from the edges.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    global x, y\n    x = max(70, min(330, mouse_x))\n    y = max(100, min(270, mouse_y))</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Move your pointer around the visual output and into each corner. The pet should follow and stop near the edges.</p>\n<h2>Make it yours</h2>\n<p>Make a pet that only follows sideways by replacing the last line with <strong>y = 230</strong>. On a touchscreen, try dragging a finger across the canvas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Where you move, your pet follows.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>move_pet()</strong>. The limits keep the centre away from the edges.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def move_pet():\n    global x, y\n    x = max(70, min(330, mouse_x))\n    y = max(100, min(270, mouse_y))</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Move your pointer around the visual output and into each corner. The pet should follow and stop near the edges.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Make a pet that only follows sideways by replacing the last line with <strong>y = 230</strong>. On a touchscreen, try dragging a finger across the canvas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "5A": {
+      "title": "Switch between moods",
+      "html": "<h1>Switch between moods</h1>\n<p>Your starter already connects a click to a reaction. Now decide what that reaction means.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>react()</strong>. Both your click control and any keyboard control call this same function.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    global mood, message\n    if mood == &#x27;calm&#x27;:\n        mood = &#x27;happy&#x27;\n        message = &#x27;You found my tickle spot!&#x27;\n    else:\n        mood = &#x27;calm&#x27;\n        message = &#x27;Again?&#x27;</code></pre></div>\n<h2>Test</h2>\n<p>Run your code and use your control twice. The face and message should swap each time. Your body and home should stay as you designed them.</p>\n<h2>Make it yours</h2>\n<p>Rewrite both messages. Try <strong>sleepy</strong> instead of <strong>happy</strong>: the starter already knows how to draw that mouth. Your rule is: <strong>When someone ___, my pet ___</strong>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Your starter already connects a click to a reaction. Now decide what that reaction means.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>react()</strong>. Both your click control and any keyboard control call this same function.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    global mood, message\n    if mood == &#x27;calm&#x27;:\n        mood = &#x27;happy&#x27;\n        message = &#x27;You found my tickle spot!&#x27;\n    else:\n        mood = &#x27;calm&#x27;\n        message = &#x27;Again?&#x27;</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code and use your control twice. The face and message should swap each time. Your body and home should stay as you designed them.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Rewrite both messages. Try <strong>sleepy</strong> instead of <strong>happy</strong>: the starter already knows how to draw that mouth. Your rule is: <strong>When someone ___, my pet ___</strong>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "5B": {
+      "title": "Surprise me",
+      "html": "<h1>Surprise me</h1>\n<p>Perhaps your pet has a mind of its own.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>react()</strong>. A random choice picks one mood whenever you use a control.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    from random import choice\n    global mood, message\n    mood = choice([&#x27;calm&#x27;, &#x27;happy&#x27;, &#x27;sleepy&#x27;])\n    if mood == &#x27;happy&#x27;:\n        message = &#x27;Play time!&#x27;\n    elif mood == &#x27;sleepy&#x27;:\n        message = &#x27;Five more minutes...&#x27;\n    else:\n        message = &#x27;Just watching.&#x27;</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Use your control several times. You might get the same mood twice; that is allowed by a random choice.</p>\n<h2>Make it yours</h2>\n<p>Change the messages. Repeat <strong>happy</strong> in the list to make it more likely. If you invent a new mood, add a matching rule to <strong>draw_face()</strong>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Perhaps your pet has a mind of its own.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>react()</strong>. A random choice picks one mood whenever you use a control.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    from random import choice\n    global mood, message\n    mood = choice([&#x27;calm&#x27;, &#x27;happy&#x27;, &#x27;sleepy&#x27;])\n    if mood == &#x27;happy&#x27;:\n        message = &#x27;Play time!&#x27;\n    elif mood == &#x27;sleepy&#x27;:\n        message = &#x27;Five more minutes...&#x27;\n    else:\n        message = &#x27;Just watching.&#x27;</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Use your control several times. You might get the same mood twice; that is allowed by a random choice.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change the messages. Repeat <strong>happy</strong> in the list to make it more likely. If you invent a new mood, add a matching rule to <strong>draw_face()</strong>.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "5C": {
+      "title": "Give it a voice",
+      "html": "<h1>Give it a voice</h1>\n<p>A message can make the same creature seem shy, dramatic or very silly.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>react()</strong>. This pet chooses a new line each time. Its voice is written on screen.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    from random import choice\n    global mood, message\n    mood = &#x27;happy&#x27;\n    message = choice([\n        &#x27;Is that a biscuit?&#x27;,\n        &#x27;I meant to do that.&#x27;,\n        &#x27;More adventures, please!&#x27;\n    ])</code></pre></div>\n<h2>Test</h2>\n<p>Run your code and use your control. Check every message is short enough to fit inside the canvas.</p>\n<h2>Make it yours</h2>\n<p>Write three lines for your own pet. Keep them short. You could borrow the strange food ideas from Python Bytes.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>A message can make the same creature seem shy, dramatic or very silly.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>react()</strong>. This pet chooses a new line each time. Its voice is written on screen.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def react():\n    from random import choice\n    global mood, message\n    mood = &#x27;happy&#x27;\n    message = choice([\n        &#x27;Is that a biscuit?&#x27;,\n        &#x27;I meant to do that.&#x27;,\n        &#x27;More adventures, please!&#x27;\n    ])</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code and use your control. Check every message is short enough to fit inside the canvas.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Write three lines for your own pet. Keep them short. You could borrow the strange food ideas from Python Bytes.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "6A": {
+      "title": "Draw a place to live",
+      "html": "<h1>Draw a place to live</h1>\n<p>Make somewhere your pet belongs. The starter pet can stay still while you work on its home.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>draw_home()</strong>. Draw faraway things first and nearby things afterwards.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_home():\n    background(&#x27;skyblue&#x27;)\n    fill(&#x27;gold&#x27;)\n    circle(330, 65, 65)\n    fill(&#x27;white&#x27;)\n    ellipse(95, 70, 100, 35)\n    fill(&#x27;lightgreen&#x27;)\n    rect(0, 290, 400, 110)\n    fill(&#x27;seagreen&#x27;)\n    triangle(15, 290, 65, 180, 115, 290)</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Your pet should appear in front of the scenery. Check its message is still easy to read.</p>\n<h2>Make it yours</h2>\n<p>Turn the sun into a moon, the tree into a mountain, or the ground into water. The canvas runs from <strong>0 to 400</strong> across and down.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Make somewhere your pet belongs. The starter pet can stay still while you work on its home.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>draw_home()</strong>. Draw faraway things first and nearby things afterwards.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_home():\n    background(&#x27;skyblue&#x27;)\n    fill(&#x27;gold&#x27;)\n    circle(330, 65, 65)\n    fill(&#x27;white&#x27;)\n    ellipse(95, 70, 100, 35)\n    fill(&#x27;lightgreen&#x27;)\n    rect(0, 290, 400, 110)\n    fill(&#x27;seagreen&#x27;)\n    triangle(15, 290, 65, 180, 115, 290)</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Your pet should appear in front of the scenery. Check its message is still easy to read.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Turn the sun into a moon, the tree into a mountain, or the ground into water. The canvas runs from <strong>0 to 400</strong> across and down.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "6B": {
+      "title": "Invent a strange world",
+      "html": "<h1>Invent a strange world</h1>\n<p>Your pet does not need an ordinary home.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>\n<h2>Try the code</h2>\n<p>Replace <strong>draw_home()</strong>. These repeated shapes could become stars, bubbles or stepping stones.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_home():\n    background(&#x27;midnightblue&#x27;)\n    fill(&#x27;lightcyan&#x27;)\n    for star_x in range(30, 400, 70):\n        circle(star_x, 60, 6)\n        circle(star_x + 20, 130, 4)\n    fill(&#x27;mediumpurple&#x27;)\n    circle(340, 230, 75)\n    fill(&#x27;lavender&#x27;)\n    rect(0, 330, 400, 70)</code></pre></div>\n<h2>Test</h2>\n<p>Run your code. Count the repeated shapes. Check the pet and its message are easy to see against the new background.</p>\n<h2>Make it yours</h2>\n<p>Change the colours and circle sizes to make an underwater home. Change <strong>70</strong> to adjust the gap between repeated shapes.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>Your pet does not need an ordinary home.</p>\n<aside class=\"callout caution\"><span class=\"callout-label\">Before you test</span><p>Have you <a href=\"#step/1A\" data-prereq>run your starter</a>? That is the only step you need first.</p></aside>",
+      "sections": [
+        {
+          "title": "Try the code",
+          "key": "try-the-code",
+          "html": "<p>Replace <strong>draw_home()</strong>. These repeated shapes could become stars, bubbles or stepping stones.</p>\n<div class=\"code-wrap\"><div class=\"code-head\"><span>python</span><button class=\"copy-code\" type=\"button\">Copy code</button></div><pre tabindex=\"0\" aria-label=\"Code to try\"><code>def draw_home():\n    background(&#x27;midnightblue&#x27;)\n    fill(&#x27;lightcyan&#x27;)\n    for star_x in range(30, 400, 70):\n        circle(star_x, 60, 6)\n        circle(star_x + 20, 130, 4)\n    fill(&#x27;mediumpurple&#x27;)\n    circle(340, 230, 75)\n    fill(&#x27;lavender&#x27;)\n    rect(0, 330, 400, 70)</code></pre></div>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Run your code. Count the repeated shapes. Check the pet and its message are easy to see against the new background.</p>"
+        },
+        {
+          "title": "Make it yours",
+          "key": "make-it-yours",
+          "html": "<p>Change the colours and circle sizes to make an underwater home. Change <strong>70</strong> to adjust the gap between repeated shapes.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "7A": {
+      "title": "Meet test and change",
+      "html": "<h1>Meet test and change</h1>\n<p>A pet that reacts to you is a finished first version. What would make yours more fun?</p>\n<h2>Test</h2>\n<ul><li>Let someone meet your pet. Can they work out how to interact?</li><li>Try each control. Does the pet react as you intended?</li><li>If it moves, try the edges. Do its face and decorations stay attached?</li><li>Can you read every message?</li></ul>\n<h2>Change one thing</h2>\n<p>Ask: <strong>What surprised you? What would you try next?</strong> Pick one change, edit your code, then test again.</p>\n<details class=\"worked-example\"><summary>Something broke when I combined ideas</summary><ul><li>Keep just one definition of each function. A later copy replaces the earlier one.</li><li>Keep your starter&#x27;s <strong>draw()</strong> function: it runs each part in order.</li><li>If part of the face stays behind, use positions based on <strong>x</strong> and <strong>y</strong>.</li><li>If a control does nothing, check it calls <strong>react()</strong>.</li><li>Undo your last change and run again. Bring it back a little at a time.</li></ul></details>\n<h2>Keep your pet</h2>\n<p>Download your Python project from the editor, or save it there if you are logged in. Use <strong>Save notes</strong> here to keep a separate copy of your pathway ticks and ideas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>A pet that reacts to you is a finished first version. What would make yours more fun?</p>",
+      "sections": [
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<ul><li>Let someone meet your pet. Can they work out how to interact?</li><li>Try each control. Does the pet react as you intended?</li><li>If it moves, try the edges. Do its face and decorations stay attached?</li><li>Can you read every message?</li></ul>"
+        },
+        {
+          "title": "Change one thing",
+          "key": "change-one-thing",
+          "html": "<p>Ask: <strong>What surprised you? What would you try next?</strong> Pick one change, edit your code, then test again.</p>\n<details class=\"worked-example\"><summary>Something broke when I combined ideas</summary><ul><li>Keep just one definition of each function. A later copy replaces the earlier one.</li><li>Keep your starter&#x27;s <strong>draw()</strong> function: it runs each part in order.</li><li>If part of the face stays behind, use positions based on <strong>x</strong> and <strong>y</strong>.</li><li>If a control does nothing, check it calls <strong>react()</strong>.</li><li>Undo your last change and run again. Bring it back a little at a time.</li></ul></details>"
+        },
+        {
+          "title": "Keep your pet",
+          "key": "keep-your-pet",
+          "html": "<p>Download your Python project from the editor, or save it there if you are logged in. Use <strong>Save notes</strong> here to keep a separate copy of your pathway ticks and ideas.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "8A": {
+      "title": "A curious companion",
+      "html": "<h1>A curious companion</h1>\n<p>What if your pet wanted to go everywhere with you?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>\n<h2>Try an idea</h2>\n<ul><li><a href=\"#step/4C\" data-prereq>Follow the pointer</a></li><li><a href=\"#step/3C\" data-prereq>Add decorations</a></li><li><a href=\"#step/5C\" data-prereq>Give it a voice</a></li></ul>\n<h2>Test</h2>\n<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>What if your pet wanted to go everywhere with you?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>",
+      "sections": [
+        {
+          "title": "Try an idea",
+          "key": "try-an-idea",
+          "html": "<ul><li><a href=\"#step/4C\" data-prereq>Follow the pointer</a></li><li><a href=\"#step/3C\" data-prereq>Add decorations</a></li><li><a href=\"#step/5C\" data-prereq>Give it a voice</a></li></ul>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "8B": {
+      "title": "A sleepy oddball",
+      "html": "<h1>A sleepy oddball</h1>\n<p>What if your pet would rather be left to snooze?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>\n<h2>Try an idea</h2>\n<ul><li><a href=\"#step/4A\" data-prereq>Wobble from side to side</a></li><li><a href=\"#step/5B\" data-prereq>Surprise me</a></li><li><a href=\"#step/6A\" data-prereq>Draw a place to live</a></li></ul>\n<h2>Test</h2>\n<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>What if your pet would rather be left to snooze?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>",
+      "sections": [
+        {
+          "title": "Try an idea",
+          "key": "try-an-idea",
+          "html": "<ul><li><a href=\"#step/4A\" data-prereq>Wobble from side to side</a></li><li><a href=\"#step/5B\" data-prereq>Surprise me</a></li><li><a href=\"#step/6A\" data-prereq>Draw a place to live</a></li></ul>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    },
+    "8C": {
+      "title": "A space visitor",
+      "html": "<h1>A space visitor</h1>\n<p>What would a creature from another planet be like?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>\n<h2>Try an idea</h2>\n<ul><li><a href=\"#step/3B\" data-prereq>Make an angular body</a></li><li><a href=\"#step/4B\" data-prereq>Bounce up and down</a></li><li><a href=\"#step/6B\" data-prereq>Invent a strange world</a></li></ul>\n<h2>Test</h2>\n<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>",
+      "intro": "<p>What would a creature from another planet be like?</p>\n<p>These are ideas to borrow. Change the combination, or make something completely different.</p>",
+      "sections": [
+        {
+          "title": "Try an idea",
+          "key": "try-an-idea",
+          "html": "<ul><li><a href=\"#step/3B\" data-prereq>Make an angular body</a></li><li><a href=\"#step/4B\" data-prereq>Bounce up and down</a></li><li><a href=\"#step/6B\" data-prereq>Invent a strange world</a></li></ul>"
+        },
+        {
+          "title": "Test",
+          "key": "test",
+          "html": "<p>Let someone meet your pet. What personality do they notice? Change one behaviour to make your idea clearer.</p>\n<p><a href=\"#hub\" data-prereq>Choose another part</a>.</p>"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+title: My p5 Pet
+steps_are_files: true
+canonical_step_count: 18
+
+# Setup is the only prerequisite. Groups suggest an order, not a sequence.
+groups:
+  - id: 1
+    title: Start here
+    options:
+      - id: 1A
+        file: 1A - Meet your pet.md
+        title: 1A - Meet your pet
+        description: Run a pet that already reacts.
+  - id: 2
+    title: Give it controls
+    options:
+      - id: 2A
+        file: 2A - Click your pet.md
+        title: 2A - Click your pet
+        description: Choose where a click counts.
+      - id: 2B
+        file: 2B - Press a key.md
+        title: 2B - Press a key
+        description: Give the keyboard a job.
+  - id: 3
+    title: Give it a body
+    options:
+      - id: 3A
+        file: 3A - Shape a body.md
+        title: 3A - Shape a body
+        description: Round, wide, tall or something else.
+      - id: 3B
+        file: 3B - Make an angular body.md
+        title: 3B - Make an angular body
+        description: Try a robot, rock or boxy beast.
+      - id: 3C
+        file: 3C - Add decorations.md
+        title: 3C - Add decorations
+        description: A hat, spots, whiskers or wings.
+  - id: 4
+    title: Make it move
+    options:
+      - id: 4A
+        file: 4A - Wobble from side to side.md
+        title: 4A - Wobble from side to side
+        description: Make a slow sway or an excited wiggle.
+      - id: 4B
+        file: 4B - Bounce up and down.md
+        title: 4B - Bounce up and down
+        description: A gentle bob or a big bounce.
+      - id: 4C
+        file: 4C - Follow the pointer.md
+        title: 4C - Follow the pointer
+        description: Make a curious companion.
+  - id: 5
+    title: Give it personality
+    options:
+      - id: 5A
+        file: 5A - Switch between moods.md
+        title: 5A - Switch between moods
+        description: Give an action a reaction.
+      - id: 5B
+        file: 5B - Surprise me.md
+        title: 5B - Surprise me
+        description: Make the next reaction unpredictable.
+      - id: 5C
+        file: 5C - Give it a voice.md
+        title: 5C - Give it a voice
+        description: Use words to show its personality.
+  - id: 6
+    title: Make its home
+    options:
+      - id: 6A
+        file: 6A - Draw a place to live.md
+        title: 6A - Draw a place to live
+        description: A garden, bedroom, cave or planet.
+      - id: 6B
+        file: 6B - Invent a strange world.md
+        title: 6B - Invent a strange world
+        description: Underwater, in space or somewhere new.
+  - id: 7
+    title: Test and improve
+    options:
+      - id: 7A
+        file: 7A - Meet test and change.md
+        title: 7A - Meet test and change
+        description: Watch someone play and improve one thing.
+  - id: 8
+    title: Ideas to borrow
+    options:
+      - id: 8A
+        file: 8A - A curious companion.md
+        title: 8A - A curious companion
+        description: A pet that follows you around.
+      - id: 8B
+        file: 8B - A sleepy oddball.md
+        title: 8B - A sleepy oddball
+        description: A pet with very little energy.
+      - id: 8C
+        file: 8C - A space visitor.md
+        title: 8C - A space visitor
+        description: A creature from somewhere else.
